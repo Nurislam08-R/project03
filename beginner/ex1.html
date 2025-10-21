@@ -8,17 +8,51 @@
 </head>
 <body>
   <main>
-    <article>
+    <article class="exercise-card">
       <div class="page-navigation">
-        <a href="../index.html" class="nav-button home">Back to Home</a>
-        <div>
-          <a href="../index.html" class="nav-button prev">Previous</a>
-          <a href="ex2.html" class="nav-button next">Next</a>
+        <a href="../index.html" class="nav-button">🏠 Home</a>
+        <div class="nav-row">
+          <a href="../index.html" class="nav-button prev">⟵ Prev</a>
+          <a href="ex2.html" class="nav-button next">Next ⟶</a>
         </div>
       </div>
-      <h1>Beginner Exercise 1</h1>
-      <p>Short description of what this exercise demonstrates.</p>
-      <!-- Solution and live result go here -->
+
+      <header class="exercise-header">
+        <h1>Beginner — Exercise 1</h1>
+        <p class="subtitle">Centering a simple card with modern CSS (flex + gap + variables).</p>
+      </header>
+
+      <section class="exercise-description">
+        <h3>What you'll learn</h3>
+        <p>How to create a centered card using Flexbox, set padding and radius via CSS custom properties, and make a small, accessible component.</p>
+      </section>
+
+      <section class="exercise-demo">
+        <h3>Live demo</h3>
+        <div class="demo-preview">
+          <!-- Preview area: simple card -->
+          <div class="demo-card">
+            <h4>Card title</h4>
+            <p>Nice and centered. Use this as a pattern.</p>
+            <a class="btn" href="#">Action</a>
+          </div>
+        </div>
+
+        <pre class="code-block"><code>&lt;div class="demo-card"&gt;
+  &lt;h4&gt;Card title&lt;/h4&gt;
+  &lt;p&gt;Nice and centered.&lt;/p&gt;
+  &lt;a class="btn" href="#"&gt;Action&lt;/a&gt;
+&lt;/div&gt;</code></pre>
+      </section>
+
+      <section class="exercise-notes">
+        <h3>Notes</h3>
+        <ul>
+          <li>Accessible buttons use the <code>.btn</code> class from the global stylesheet.</li>
+          <li>Use media queries to tweak spacing on small screens.</li>
+        </ul>
+      </section>
+
     </article>
   </main>
   <footer>

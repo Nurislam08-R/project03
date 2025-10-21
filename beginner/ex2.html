@@ -8,10 +8,43 @@
 </head>
 <body>
   <main>
-    <article>
-      <h1>Beginner Exercise 2</h1>
-      <p>Short description of what this exercise demonstrates.</p>
-      <!-- Solution and live result go here -->
+    <article class="exercise-card">
+      <div class="page-navigation">
+        <a href="../index.html" class="nav-button">🏠 Home</a>
+        <div class="nav-row">
+          <a href="ex1.html" class="nav-button prev">⟵ Prev</a>
+          <a href="ex3.html" class="nav-button next">Next ⟶</a>
+        </div>
+      </div>
+
+      <header class="exercise-header">
+        <h1>Beginner — Exercise 2</h1>
+        <p class="subtitle">Simple responsive grid layout using CSS Grid.</p>
+      </header>
+
+      <section class="exercise-description">
+        <h3>What you'll learn</h3>
+        <p>How to create a responsive card grid with gap and auto-fit columns.</p>
+      </section>
+
+      <section class="exercise-demo">
+        <h3>Live demo</h3>
+        <div class="demo-preview grid-demo">
+          <div class="grid-item">1</div>
+          <div class="grid-item">2</div>
+          <div class="grid-item">3</div>
+          <div class="grid-item">4</div>
+        </div>
+        <pre class="code-block"><code>&lt;div class="grid"&gt;...&lt;/div&gt;</code></pre>
+      </section>
+
+      <section class="exercise-notes">
+        <h3>Notes</h3>
+        <ul>
+          <li>Use <code>grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))</code> for responsive columns.</li>
+        </ul>
+      </section>
+
     </article>
   </main>
   <footer>
